@@ -1,6 +1,6 @@
 function Card({ title, img, desc, link }) {
   return (
-    <div className="border w-[240px] rounded-lg p-2 mb-4 mx-2">
+    <div className="border w-[240px] rounded-lg p-2 mb-4 mx-2 hover:bg-neutral-100">
       <a href={link} target="_blank">
         <img
           src={img}
